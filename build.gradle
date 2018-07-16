@@ -2,7 +2,7 @@ plugins {
     id "org.jetbrains.kotlin.jvm" version "1.2.41"
     id "org.jetbrains.kotlin.kapt" version "1.2.41"
     id "com.github.johnrengelman.shadow" version "1.2.4"
-    id "flavor.pie.promptsign" version "1.0.2"
+    //id "flavor.pie.promptsign" version "1.0.2"
 }
 
 group "de.randombyte"
@@ -39,7 +39,7 @@ shadowJar {
     classifier = null // Remove "-all" suffix from output file name
 }
 build.dependsOn shadowJar
-signArchives.dependsOn shadowJar
+//signArchives.dependsOn shadowJar
 
 compileKotlin {
     kotlinOptions {
