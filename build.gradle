@@ -25,7 +25,7 @@ dependencies {
     kapt "org.spongepowered:spongeapi:7.0.0"
     shadow("com.github.randombyte-developer.kosp:kosp:v1.9.2") { transitive = false }
     shadow "org.bstats:bstats-sponge:1.2"
-    compile "com.github.randombyte-developer:byte-items:v2.2.6"
+    compile "com.github.randombyte-developer:byte-items:master-SNAPSHOT"
 }
 
 shadowJar {
